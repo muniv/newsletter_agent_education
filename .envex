@@ -1,0 +1,9 @@
+# OpenAI API 설정
+OPENAI_API_KEY=
+
+# 모델 설정 (선택사항, 기본값: gpt-4o-mini)
+OPENAI_MODEL=gpt-4o
+
+# Gmail SMTP 설정 (뉴스레터 발송용)
+GMAIL_USER=
+GMAIL_APP_PASSWORD=
