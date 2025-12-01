@@ -1,6 +1,5 @@
 # Environment variables
 .env
-.envex
 
 # Python
 __pycache__/
