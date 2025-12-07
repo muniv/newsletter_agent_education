@@ -1,5 +1,5 @@
 [project]
-name = "crewai-mcp-newsletter"
+name = "newsletter"
 version = "0.1.0"
 description = "CrewAI multi-agent newsletter system with MCP email tools"
 readme = "README.md"
