@@ -44,20 +44,32 @@ RECIPIENT_EMAIL=recipient@example.com
 
 ## 실행
 
+### 파이썬 설정
+![alt text](docs/image.png)
+상단 중간에 '>> Select Interpreter' 를 검색하여 </br></br>
+
+![alt text](docs/image2.png)
+
+이와 같이 python이 있는지 확인해주세요.</br>
+만약, 파이썬이 없다면 인터넷에서 설치 후 아래 단계를 진행해주세요.</p>
+화면과 같이 파이썬 버전들이 하나 이상 뜬다면 그 중 하나를 선택해주세요.</p> 
+(저희가 테스트 한 환경은 3.10 버전이기에 해당 버전을 권장드립니다.)
+</p>
+
 ### 기본 실행 (환경 변수에서 이메일 읽기)
 
 ```bash
 # 의존성 설치
-uv sync
+pip install -r requirements.txt
 
 # 실행 (GMAIL_USER 또는 RECIPIENT_EMAIL 환경 변수 사용)
-uv run python newsletter_crew.py
+python newsletter_crew.py
 ```
 
 ### 이메일 주소 직접 지정
 
 ```bash
-uv run python newsletter_crew.py --email recipient@example.com
+python newsletter_crew.py --email recipient@example.com
 ```
 
 ### 모델 변경
